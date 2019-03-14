@@ -18,6 +18,7 @@ public void service(HttpServletRequest req, HttpServletResponse res)throws Servl
 	PrintWriter pw=res.getWriter();
 	RequestDispatcher rd=null;
 	String msg=" ";
+	String xyz=" ";
 	EmpModel em=new EmpModel();
 	ResultBean rb=new ResultBean();
 	HttpSession hs=req.getSession();
